@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Shadhin Smp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <meta name="viewport" content="width =device-width,initial-scale=1 ">
+</head>
+<body>
+<section id="banner">
+    <img src="4ced983ac716cac3fb7a78ce86787651.jpg" class="logo">
+    <div class="banner-text">
+        <h1>Shadhin Smp</h1>
+        <p><span>All are Shadhin</span></p>
+        <div class="banner-btn">
+            <a href="https://discord.gg/bfPUgngJWv">Discord</a>
+        </div>
+    </div>
+    </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#service">Services</a></li>
+            
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.png" id="menu">
+</div>
+
+
+
+<section id="About">
+<div class="title-text">
+<p>About</p>
+<h1>Why Shadhin Smp is Best</h1>
+</div>
+<div class="about-box">
+    <div class="abouts">
+        <h1>Experienced Moderators</h1>
+        <div class="about-desc">
+            <div class="about-icon">
+                <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+            <div class="about-text">
+                <p>All staff members are skilled in different sectors</p>
+            </div>
+        </div>
+        <h1>Headsteal and Lifesteal</h1>
+        <div class="about-desc">
+            <div class="about-icon">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            </div>
+            <div class="about-text">
+                <p>Shadhin Smp has Headsteal and Lifesteal Plugin</p>
+            </div>
+        </div>
+        <h1>Owner and Co Owner</h1>
+        <div class="about-desc">
+            <div class="about-icon">
+                <i class="fa fa-usd" aria-hidden="true"></i>
+            </div>
+            <div class="about-text">
+                <p>Owner is AngryAnan</p>
+                <p>Co Owner is Eshan [Also the creator of this website]</p>
+            </div>
+        </div>
+    </div>
+    <div class="abouts-img">
+        <img src="download (2).jpg">
+    </div>
+</div>
+</section>
+
+<!--Services-->
+
+<section id="service">
+    <div class="title-text">
+        <p>Services</p>
+        <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                
+                 <img src="20231116_215248.jpg" >
+                <div class="service-disc">
+                    <h3>Admin and Moderators</h3>
+                    <hr>
+                    <p>Our Admins and Moderators are always in the Discord server to help you</p>
+                </div>
+            </div>
+            <div class="single-service">
+                
+                 <img src="shadhin 45.jpg" >
+                 <div class="service-disc">
+                    <h3>Head Quarter</h3>
+                    <hr>
+                    <p>Our Head Quarter is in our Discord server the link is given in the home page</p>
+                </div>
+                
+            </div>
+            <div class="single-service">
+                
+                 <img src="shadhin 34.jpg" >
+                 <div class="service-disc">
+                    <h3>Shadhin Smp</h3>
+                    <hr>
+                    <p>Shadhin Smp's spawn is very phenomenal with  lots of Builds</p>
+                </div>
+            </div>
+            <div class="single-service">
+                
+                 <img src="shadhin1 2.jpg" >
+                 <div class="service-disc">
+                    <h3>Owner and Co Owner</h3>
+                    <hr>
+                    <p>If you think that a Admin,Moderators,Shadhin.Special.Force is corrupted or abusing his power you can inform AngryAnan or Eshan</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!--contact-->
+<section id="footer">
+    <div class="title-text">
+        <p>Contact</p>
+        <h1>How Can you contact with us?</h1>
+    </div>
+    <div class="contact">
+        <h1 >You Can Join in our Discord Server to Contact</h1>
+        <a href="https://discord.gg/fHq5RqkGnF">
+        <button class="button">Click To Join</button>
+        </a>
+    </div>
+
+        <div class="contact-img">
+            
+            <img src="tumblr_9774dc7432e66f257f4b083b3085bf7a_53f8cdff_540.gif"  >
+        </div>
+        <div class="social-links">
+            <h1>Owners YouTube</h1>
+            <a href="https://www.youtube.com/@angryananyt1000">
+            <i class="fa fa-youtube"></i>
+            
+            </a>
+
+
+
+
+            <p>Copyright by Shadhin Smp</p>
+            <p>Website Made by Eshan</p>
+        </div>
+    
+</section>
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "close.png";
+
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "menu.png";
+        }
+    }
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+
+</body>
+</html>
